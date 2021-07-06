@@ -1,9 +1,9 @@
 const express = require('express');
+const routes = require('./routes');
 
 const app = express();
+app.use('/',routes());
+
+
 
 app.listen(7000);
-
-app.use('/', (req,res) => {
-    res.send("hola estoy desde el puerto 7000")
-})
