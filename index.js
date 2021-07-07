@@ -4,6 +4,7 @@ const patch = require('path');
 
 const app = express();
 
+app.use(express.static('public'));
 //habilitar el template engine
 app.set('view engine', 'pug');
 

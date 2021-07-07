@@ -1,7 +1,11 @@
 exports.proyectosHome = (req,res) => {
-        res.render("index");
+        res.render("index",{
+            nombrePagina: 'index'
+        });
     }
 
     exports.proyectosNosotros = (req,res) =>{
-        res.send("ahora desde nostros pero desde el controlador tambien");
+        res.render("nosotros",{
+            nombrePagina: 'nosotros'
+        });
     }
