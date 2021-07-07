@@ -1,5 +1,5 @@
 exports.proyectosHome = (req,res) => {
-        res.send("ahora estoy desde el controlador");
+        res.render("index");
     }
 
     exports.proyectosNosotros = (req,res) =>{

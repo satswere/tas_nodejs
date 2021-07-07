@@ -4,13 +4,14 @@
   "description": "app with mvc and nodejs",
   "main": "index.js",
   "scripts": {
-    "inicio" : "nodemon /index.js",
+    "inicio": "nodemon /index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "luis alberto",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.9"
